@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - node
+cache:
+  yarn: true
+  directories:
+    - node_modules
+script:
+  - yarn run build
+deploy:
+  provider: s3
+  access_key_id: AKIAIVLJNVL4MCI2FIWA
+  secret_access_key:
+    secure: lgwpYRJq4gFjXTVaY/TmsNj5otQM0zykRI1zaOxxfhA8VjaeMk0E4ttCDEd4txTOVaDQPnMhY9xtOAzJDYRkSDNYqq+AhpNUjtWeb0jMqqSx5w7/KryQTzxnTQll6jwuDXIaO7POlLoe0CjcaUFAO+gW/7Of2jbj/VZMvD1YCEZ9WK2AV5fBhgQSSeo08buqmejVKj+SXVcQkTxu4kF4ynyYKLDA19CtOT/80cKG3vGZwaohqmTCqoNum9ZGKMHXD9kaLiIf94T0mOANamf3FcLJi2Y8g1Q+fpHYV3Ojm9HvxK7p3hiVoM8jgcpkxb9lk0SbZHrXuyYduAORuFneJ7sEbR2JSCfPHTMmZMRMbmyE5EoIDy0Q0WHnhEXgD0e7UDrTqMZGWLY463VlbDYJNx2TdMbDT3b8jNV+5n5NbZ7dg9ZhY4dh/CyMVEWj2E2Wfz6s7YUeYTEMY49xxNkRw+JoQGnf9sdBo+O3HjbG3lIleIOiCulfnol03gjPmxwQduzhA+opK9Almrw3pDu4RVyddwYXjvUYR49k5mG7juhXwTrP+o+JhqANHyaU8IyRyKkHaNwW+Cxn0YyXw0SWaydY9Q8CC63YY877mrgAJde4L7HPYCghXTYlElWyYP6EPkIkjUmRRlAhlAQwVcjMzbC7zGrWYoyaiMoo0trTh+4=
+  bucket: heidiandkeith
+  acl: public_read
+  skip_cleanup: true
+  local_dir: build
+branches:
+  only:
+    - master
