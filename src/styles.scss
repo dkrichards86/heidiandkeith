@@ -1,0 +1,90 @@
+@import 'bulma/sass/utilities/initial-variables.sass';
+
+$grey: #888888;
+$primary: #6abfb0;
+
+$text: darken($grey, 10);
+$link: #BF6AAC;
+$title-color: darken($grey, 30);
+$subtitle-color: $grey;
+$navbar-item-hover-color: darken($grey, 80);
+
+$body-background-color: #F9F9F9;
+$footer-background-color: #FFFFFF;
+
+$family-primary: "Raleway",
+-apple-system,
+system-ui,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+sans-serif;
+
+@import 'bulma/bulma.sass';
+
+@import 'bulma-extensions/bulma-timeline/src/sass/index.sass';
+
+html {
+  font-size: 18px;
+
+  @include until($desktop) {
+    font-size: 16px;
+  }
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.nav-top {
+  background: $primary;
+  height: 12px;
+  width: 100%;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+.box:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  box-shadow: 0 2px 3px rgba($grey, 0.1);
+}
+
+.footer {
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 -2px 3px rgba($grey, 0.1);
+  
+  a {
+    color: $dark;
+  }
+}
+
+hr {
+    background-color: #dbdbdb;
+    height: 1px;
+}
+
+.home-image {
+    border-radius: 12px;
+    border: 1px solid rgba($grey, 0.2);
+    box-shadow: 0 2px 3px rgba($grey, 0.1);
+}
