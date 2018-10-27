@@ -35,8 +35,8 @@ const Home = () => (
             </p>
           </div>
           <div className="column">
-            <figure class="image is-3by4">
-              <img src='./heidiandkeith.jpg' alt="Heidi and Keith enjoying a round of mini golf." />
+            <figure className="image is-3by4">
+              <img className="home-image" src='./heidiandkeith.jpg' alt="Heidi and Keith enjoying a round of mini golf." />
             </figure>
           </div>
         </div>

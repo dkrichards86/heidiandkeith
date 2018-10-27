@@ -4,9 +4,9 @@ import classNames from 'classnames';
 const Card = (props) => (
     <div className="box">
         <article className="media">
-          <figure className="media-left">
-            <p className="image is-64x64">
-              <img src="https://bulma.io/images/placeholders/128x128.png" alt="placeholder" />
+          <figure className="media-left is-square">
+            <p className="image is-96x96">
+              <img className="is-rounded" src={props.image} alt={`Logo for ${props.title}`} />
             </p>
           </figure>
           <div className="media-content">
