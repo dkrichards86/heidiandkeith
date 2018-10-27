@@ -15,9 +15,9 @@ const Registry = () => (
         </h4>
         <p>
           We're very fortunate to have a full house. Instead of a registy, we'd
-          be honored if you would help us help others not as fortunate. We've
-          identified some of our favorite charities. Feel free to browse their
-          services or contribute to any other charity you stronlgy support!
+          be honored if you would help us help others not as fortunate. Some of
+          our favorite charities are listed below. Feel free to browse their
+          services or contribute to any other charity you strongly support!
         </p>
         <div className="tabs">
           <ul>

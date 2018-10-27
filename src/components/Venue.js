@@ -11,7 +11,7 @@ const Venue = () => (
           The Rickhouse &bull; Durham, NC
         </h4>
         <p>
-          The Rickhouse is the qunitessential Durham event space showcasing reclaimed wood and exposed brick. Originally a
+          The Rickhouse is the quintessential Durham event space showcasing reclaimed wood and exposed brick. Originally a
           tobacco prizery for one of Durham's many historic cigarette manufacturers, RJ Reynolds, 
           it has since be restored and converted into a beautiful event space.
           The Rickhouse overlooks the famed Durham Athletic Park, former home to the Durham

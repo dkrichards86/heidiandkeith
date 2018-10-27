@@ -31,7 +31,7 @@ const dataset = [
   },
   {
     title: "Duke Lemur Center",
-    description: "The Duke Lemur Center is home to 240 species of Lemurs and other prosimians. We appreciate their mission and their great awesome tour.",
+    description: "The Duke Lemur Center is home to 240 species of Lemurs and other prosimians. We appreciate their mission and their awesome tour.",
     image: "dlc_400x400.jpg",
     links: [
       {
