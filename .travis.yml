@@ -20,4 +20,4 @@ deploy:
   skip_cleanup: true
 branches:
   only:
-  - master
+  - publish
