@@ -36,7 +36,7 @@ const Home = () => (
           </div>
           <div className="column">
             <figure className="image is-3by4">
-              <img className="home-image" src='./heidiandkeith.jpg' alt="Heidi and Keith enjoying a round of mini golf." />
+              <img className="home-image" src='./heidi_and_keith.jpg' alt="Heidi and Keith at American Tobacco Campus." />
             </figure>
           </div>
         </div>
