@@ -1,7 +1,16 @@
+import React from 'react';
+
 const dataset = [
   {
     title: "Ponysaurus",
-    description: "Ponysaurus makes \"The beer beer could drink if beer could drink beer\". We really like the Biere de Garde and Golden Rule Saison. In addition to great brews, we also appreciate Ponysaurus' philanthropy, donating proceeds and hosting festivals to support North Carolina's LGBTQ community.",
+    description: () => (
+      <div>
+        Ponysaurus makes "The beer beer could drink if beer could drink beer".
+        We really like the Biere de Garde and Golden Rule Saison. In addition to
+        great brews, we also appreciate Ponysaurus' philanthropy, donating
+        proceeds and hosting festivals to support North Carolina's LGBTQ community.
+      </div>
+    ),
     image: "ponysaurus_400x400.png",
     links: [
       {
@@ -16,7 +25,13 @@ const dataset = [
   },
   {
     title: "Sams Bottle Shop",
-    description: "Sam's Bottle Shop is one of our favorite bottle shops in the area, with a huge selection of beers from around the world. Plus they play great music. It's metal. Heidi hates it.",
+    description: () => (
+      <div>
+        Sam's Bottle Shop is one of our favorite bottle shops in the area, with
+        a huge selection of beers from around the world. Plus they play great
+        music. It's metal. Heidi hates it.
+      </div>
+    ),
     image: "sams_400x400.jpg",
     links: [
       {
@@ -31,7 +46,12 @@ const dataset = [
   },
   {
     title: "Pour Taproom",
-    description: "We like Pour's huge selection (60 taps!) and great location in the heart of downtown Durham.",
+    description: () => (
+      <div>
+        We like Pour's huge selection (60 taps!) and great location in the heart
+        of downtown Durham.
+      </div>
+    ),
     image: "pour_400x400.jpeg",
     links: [
       {
@@ -46,7 +66,12 @@ const dataset = [
   },
   {
     title: "Bull City Ciderworks",
-    description: "Bull City Ciderworks is Durham's premier cidery. Heidi likes their subtle approach to craft ciders.",
+    description: () => (
+      <div>
+        Bull City Ciderworks is Durham's premier cidery. Heidi likes their subtle
+        approach to craft ciders.
+      </div>
+    ),
     image: "ciderworks_400x400.jpg",
     links: [
       {
