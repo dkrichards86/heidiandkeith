@@ -18,6 +18,8 @@ deploy:
   acl: public_read
   local_dir: build
   skip_cleanup: true
+  on:
+    branch: publish
 branches:
   only:
   - publish
