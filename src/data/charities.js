@@ -1,7 +1,15 @@
+import React from 'react';
+
 const dataset = [
   {
     title: "Durham Habitat for Humanity",
-    description: "We believe everyone needs a place to live. Heidi is a fan of Habitat, volunteering to help the community. She even travelled to Honduras to build houses for Habitat for Humanity's Global Village.",
+    description: () => (
+      <div>
+        We believe everyone needs a place to live. Heidi is a fan of Habitat,
+        volunteering to help the community. She even travelled to Honduras to
+        build houses for Habitat for Humanity's Global Village.
+      </div>
+    ),
     image: "habitat_400x400.jpg",
     links: [
       {
@@ -16,7 +24,13 @@ const dataset = [
   },
   {
     title: "Wounded Warrior Project",
-    description: "As a United States Marine Corps veteran, Keith appreciates Wounded Warrior Project for bettering the quality of life for veterans and active duty service members.",
+    description: () => (
+      <div>
+        As a United States Marine Corps veteran, Keith appreciates Wounded
+        Warrior Project for bettering the quality of life for veterans and active
+        duty service members.
+      </div>
+    ),
     image: "wwp_400x400.jpg",
     links: [
       {
@@ -31,7 +45,12 @@ const dataset = [
   },
   {
     title: "Duke Lemur Center",
-    description: "The Duke Lemur Center is home to 240 species of Lemurs and other prosimians. We appreciate their mission and their awesome tour.",
+    description: () => (
+      <div>
+        The Duke Lemur Center is home to 240 species of Lemurs and other
+        prosimians. We appreciate their mission and their awesome tour.
+      </div>
+    ),
     image: "dlc_400x400.jpg",
     links: [
       {

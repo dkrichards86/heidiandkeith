@@ -14,7 +14,7 @@ const Card = (props) => (
               <p>
                 <strong>{props.title}</strong>
                 <br />
-                {props.description}
+                {props.description()}
               </p>
             </div>
             <nav className="level is-mobile">
