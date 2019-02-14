@@ -19,7 +19,7 @@ deploy:
   local_dir: build
   skip_cleanup: true
   on:
-    branch: publish
+    branch: master
 branches:
   only:
-  - publish
+  - master
