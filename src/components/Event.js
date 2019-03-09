@@ -32,7 +32,7 @@ const Event = () => (
         <div className="column">
           <div className="timeline is-centered">
             <div className="timeline-header">
-              <span className="tag is-medium is-primary">5:30pm</span>
+              <span className="tag is-medium is-primary">5:00pm</span>
             </div>
             <div className="timeline-item">
               <div className="timeline-marker is-icon">
@@ -71,7 +71,7 @@ const Event = () => (
               </div>
             </div>
             <div className="timeline-header">
-              <span className="tag is-medium is-primary">10:30pm</span>
+              <span className="tag is-medium is-primary">10:00pm</span>
             </div>
           </div>
         </div>
