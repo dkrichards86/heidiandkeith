@@ -29,8 +29,8 @@ class Countdown extends React.Component {
         const now = moment();
         const diff = EVENT_DATETIME.diff(now);
         const diffDuration = moment.duration(diff);
-    
-        const days =  Math.ceil(diffDuration.asDays());
+        
+        const days =  Math.floor(diffDuration.asDays());
         const hours = diffDuration.hours();
         const minutes = diffDuration.minutes();
         const seconds = diffDuration.seconds();
